@@ -9,8 +9,13 @@ function Footer({copyRight}) {
                     &copy; {copyRight} All rights reserved.
                 </span>
                 <span className="inline-flex space-x-4">
-                    <a href="https://www.instagram.com/suj_ataa?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" className="text-gray-700">
+                    <a href="https://www.instagram.com/suj_ataa?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" className="text-gray-700 hover:text-green-500">
                         <FontAwesomeIcon icon={['fab', 'instagram']} size="2x" />
+                    </a>
+                </span>
+                <span className="inline-flex space-x-4">
+                    <a href="https://www.instagram.com/suj_ataa?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" className="text-gray-700 hover:text-green-500">
+                        <FontAwesomeIcon icon={['fas', 'envelope']} size="2x" />
                     </a>
                 </span>
             </footer>

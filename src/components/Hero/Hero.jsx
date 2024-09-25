@@ -17,13 +17,13 @@ function Hero({ title }) {
                   {title}
                 </h1>
               </div>
-              <h2 className="text-3xl leading-loose underline text-whitish underline-offset-8 decoration-wavy">
+              <h2 className="text-3xl leading-loose underline decoration-greenish text-whitish underline-offset-8 decoration-wavy">
                 a Tech Enthusiast{" "}
-                <FontAwesomeIcon icon="computer" size="xl" className="px-4" />{" "}
+                <FontAwesomeIcon icon="computer" size="xl" className="px-4 text-greenish" />{" "}
                 <br></br>a traveler{" "}
-                <FontAwesomeIcon icon="road" size="xl" className="px-4" />{" "}
+                <FontAwesomeIcon icon="road" size="xl" className="px-4 text-greenish" />{" "}
                 <br></br> and a photographer{" "}
-                <FontAwesomeIcon icon="camera" size="xl" className="px-4" />
+                <FontAwesomeIcon icon="camera" size="xl" className="px-4 text-greenish" />
               </h2>
               <div>
                 <a

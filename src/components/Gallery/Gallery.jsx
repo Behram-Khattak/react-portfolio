@@ -7,14 +7,13 @@ import imageThree from "../../assets/images/sujata-pic-3.jpg";
 import imageFour from "../../assets/images/sujata-pic-4.jpg";
 import imageFive from "../../assets/images/sujata-pic-5.jpg";
 import imageSix from "../../assets/images/sujataa-pic-6.jpg";
-import imageSeven from "../../assets/images/sujataa-pic-7.jpg";
 
 
 function Gallery({ pageTitle }) {
   return (
     <>
       <section id="gallery">
-        <div className="max-w-screen-xl min-h-screen p-4 mx-auto">
+        <div className="max-w-screen-xl min-h-screen p-4 mx-auto mb-20">
           <h2 className="text-4xl font-extrabold text-center text-gray-700 underline uppercase decoration-wavy decoration-greenish underline-offset-8">
             {pageTitle}
           </h2>

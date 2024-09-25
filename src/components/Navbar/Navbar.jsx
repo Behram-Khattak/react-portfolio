@@ -10,14 +10,14 @@ function Navbar({ name }) {
             href="/"
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
-            <span className="self-center text-2xl font-semibold text-gray-700 underline decoration-wavy underline-offset-8 whitespace-nowrap">
+            <span className="self-center text-2xl font-semibold text-gray-700 underline decoration-wavy decoration-greenish underline-offset-8 whitespace-nowrap">
               {name}
             </span>
           </a>
           <button
             data-collapse-toggle="navbar-default"
             type="button"
-            className="inline-flex items-center justify-center w-10 h-10 p-2 text-sm text-gray-700 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            className="inline-flex items-center justify-center hidden w-10 h-10 p-2 text-sm text-gray-700 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
             aria-controls="navbar-default"
             aria-expanded="false"
           >
