@@ -8,6 +8,7 @@ library.add(fas, fab);
 import "./App.css";
 import Gallery from "./components/Gallery/Gallery";
 import Footer from "./components/Footer/Footer";
+import Tech from "./components/Tech/Tech";
 
 function App() {
   return (
@@ -16,13 +17,16 @@ function App() {
       <Navbar name="Sujataa" />
 
       {/* hero section */}
-      <Hero title="i am sujataa" />
+      <Hero title="sujataa" />
 
       {/* about section */}
       <About pageTitle="about me" />
 
       {/* gallery section */}
       <Gallery pageTitle="my gallery" />
+
+      {/* tech section */}
+      <Tech pageTitle="tech stuff" />
 
       {/* footer section */}
       <Footer copyRight="sujataa 2024 ;)" />

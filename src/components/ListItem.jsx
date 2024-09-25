@@ -6,7 +6,7 @@ function ListItem({ text, link }) {
       <li>
         <a
           href={link}
-          className="block px-3 py-2 rounded text-greenish md:hover:bg-transparent md:border-0 hover:underline hover:decoration-greenish hover:decoration-wavy hover:underline-offset-6 md:p-0"
+          className="block px-3 py-2 text-gray-700 rounded md:hover:bg-transparent md:border-0 hover:underline hover:decoration-greenish hover:decoration-wavy hover:underline-offset-6 md:p-0"
         >
           {text}
         </a>

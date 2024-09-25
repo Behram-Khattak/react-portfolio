@@ -4,16 +4,16 @@ import videoMyself from "../../assets/videos/VID_169400413_095124_465.mp4";
 function About({ pageTitle }) {
   return (
     <>
-      <section className="bg-white" id="about">
+      <section className="" id="about">
         <div className="max-w-screen-xl min-h-screen p-4 mx-auto mb-20">
-          <h2 className="text-4xl font-extrabold text-center underline uppercase decoration-wavy text-greenish">
+          <h2 className="text-4xl font-extrabold text-center text-gray-700 underline uppercase underline-offset-8 decoration-wavy decoration-greenish">
             {pageTitle}
           </h2>
 
           <div className="grid gap-6 mt-6 text-center lg:text-justify lg:grid-cols-2 place-items-center">
             {/* about history */}
             <div className="about_content">
-              <p className="mt-6 text-2xl leading-10 text-greenish first-line:text-4xl">
+              <p className="mt-6 text-2xl leading-10 text-gray-700 first-line:text-4xl">
                 <span className="leading-loose underline decoration-wavy underline-offset-8">
                   I'm a Nepali girl
                 </span>{" "}

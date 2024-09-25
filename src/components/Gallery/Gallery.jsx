@@ -13,9 +13,9 @@ import imageSeven from "../../assets/images/sujataa-pic-7.jpg";
 function Gallery({ pageTitle }) {
   return (
     <>
-      <section>
-        <div className="max-w-screen-xl min-h-screen p-4 mx-auto" id="gallery">
-          <h2 className="text-4xl font-extrabold text-center underline uppercase decoration-wavy text-greenish">
+      <section id="gallery">
+        <div className="max-w-screen-xl min-h-screen p-4 mx-auto">
+          <h2 className="text-4xl font-extrabold text-center text-gray-700 underline uppercase decoration-wavy decoration-greenish underline-offset-8">
             {pageTitle}
           </h2>
           <div className="grid max-w-screen-xl grid-cols-1 gap-4 px-4 mx-auto mt-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
